@@ -25,7 +25,7 @@ This project demonstrates a simple chatbot using OpenAI's GPT-3 powered by Flask
 3. Set up OpenAI API Key:
 
     - Get your OpenAI API key from [OpenAI](https://platform.openai.com/account/api-keys).
-    - Replace `YOUR_OPENAI_API_KEY` in `app/openai_integration.py` with your actual API key.
+    - Replace `OPENAI_API_KEY` in `config.py` with your actual API key.
 
 ## Usage
 
