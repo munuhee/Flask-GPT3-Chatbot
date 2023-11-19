@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template
 from flask_socketio import emit
-from ..openai_integration import generate_response
-from .. import socketio
+from app.openai_integration import generate_response
+from app import socketio
 
 chatbot_bp = Blueprint('chatbot', __name__)
 
